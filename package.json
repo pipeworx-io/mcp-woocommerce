@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-woocommerce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WooCommerce MCP Pack — wraps the WooCommerce REST API v3",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-woocommerce": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "woocommerce"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-woocommerce"
+    "url": "git+https://github.com/pipeworx-io/mcp-woocommerce.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-754c91d12b065021082df02f2e7a4662ccd8edb35b6f701d33f2b59e0131fc0c",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
