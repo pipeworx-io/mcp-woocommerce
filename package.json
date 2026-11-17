@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-woocommerce",
-  "version": "0.2.1",
-  "description": "WooCommerce MCP Pack — wraps the WooCommerce REST API v3",
+  "version": "0.2.2",
+  "description": "Unofficial WooCommerce MCP Pack — wraps the WooCommerce REST API v3",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "woocommerce",
     "gatewaySlug": "woocommerce",
-    "sourceHash": "v1-5c1842c90ab7d15539efe885dd7d4ec77a2e1b6feca5725fe4bbcba847db91e7",
-    "sourceCommit": "78b905fa3a6880dfb85c79150f4bffe8cf50ef00"
+    "sourceHash": "v1-12d6f5b18de496a864e8f4c0961e943afa800c39b66be9b8cb999bf82b0202b7",
+    "sourceCommit": "6e7ae693219a515a7ee6dd88d02390ab290fbad3"
   }
 }
